@@ -20,7 +20,7 @@ function App() {
         <button onClick={handleIncrement}>+</button>
         <button onClick={handleReset}>Reset</button>
       </div>
-      {count > 0 && <p className="message">Great job! Keep counting!</p>}
+      {count > 0 && <p className="message">OM SHREE SHANESHWARAY NAMHA</p>}
     </div>
   );
 }

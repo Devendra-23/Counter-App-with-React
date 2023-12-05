@@ -14,7 +14,13 @@ button {
   font-size: 1.5rem;
   margin: 0 10px;
   border-radius: 10px;
-  background-color: ;
+  background-color: #ffc47e;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffad84; /* Hover background color */
+  cursor: pointer;
 }
 
 .message {

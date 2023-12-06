@@ -6,7 +6,10 @@
 .counter-container {
   margin: 20px;
 }
-
+p {
+  font-size: 16px;
+  color: "#1B4242";
+}
 body {
   background-color: #fff78a;
 }

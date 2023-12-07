@@ -25,6 +25,9 @@ button:hover {
   background-color: #ffad84; /* Hover background color */
   cursor: pointer;
 }
+button:active {
+  transform: scale(1.1); /* Enlarges the button when clicked */
+}
 
 .message {
   color: green;

@@ -10,6 +10,11 @@ p {
   font-size: 16px;
   color: "#1B4242";
 }
+
+h1 {
+  font-size: 24px;
+  color: #ee7214;
+}
 body {
   background-color: #fff78a;
 }

@@ -39,7 +39,7 @@ function App() {
     setCount(count + 1);
     // Toggle between two colors on each click
     setBackgroundColor((prevColor) =>
-      prevColor === "#fff78a" ? "#5C8374" : "#fff78a"
+      prevColor === "#fff78a" ? "#9A031E" : "#fff78a"
     );
   };
 

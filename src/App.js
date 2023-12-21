@@ -41,6 +41,19 @@ function App() {
     setBackgroundColor((prevColor) =>
       prevColor === "#fff78a" ? "#9A031E" : "#fff78a"
     );
+    // Get the button element by id
+    const plusButton = document.getElementById("plus-button");
+
+    // Check if the button element exists before manipulating it
+    if (plusButton) {
+      // Add the "enlarge" class
+      plusButton.classList.add("enlarge");
+
+      // Remove the "enlarge" class after the animation completes
+      setTimeout(() => {
+        plusButton.classList.remove("enlarge");
+      }, 300);
+    }
   };
 
   const handleReset = () => {
